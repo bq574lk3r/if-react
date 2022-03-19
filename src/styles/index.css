@@ -1,0 +1,95 @@
+@import "fonts.css";
+
+:root {
+  --col-width: calc(100% * 1 / 12);
+  --primary: #3077c6;
+  --primary-dark: #10367C;
+  --secondary: #F5BD41;
+  --dark-mode-1: #121212;
+  --dark-mode-2: #1D1E1F;
+  --dark-mode-3: #4D4D4D;
+  --main-stroke: #f3f3f4;
+  --main-text: #383838;
+  --main-bg: #EAF0F9;
+  --secondary-text: #BFBFBF;
+}
+body {
+  box-sizing: border-box;
+  border: none;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto-medium", Roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  color: var(--main-text);
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #3077C6;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  color: var(--main-text);
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #3077C6;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary);
+}
+p {
+  margin-block: 0.25em;
+}
