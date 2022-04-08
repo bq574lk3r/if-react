@@ -20,17 +20,16 @@ class Carousel extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            speed: 500,
+            speed: 600,
+            className:'carousel',
             slidesToShow: 4,
-            slidesToScroll: 1
+            slidesToScroll: 1,
         };
-        console.log('props', this.props)
         return (
             <div>
                 <Slider {...settings}>
-
                     {this.state.data.map(el => (
-                        <div>
+                        <div key={el.id}>
                             <img className="houses-img" src={el.imageUrl} alt={el.name}/>
                             <div className="houses-card-text">
                                 <h4>{el.name}</h4>
